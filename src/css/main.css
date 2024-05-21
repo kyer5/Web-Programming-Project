@@ -78,6 +78,15 @@ h1 {
     line-height: 1.5vw;
 }
 
+.motivation {
+    /*font-size: 1.2em;*/
+    color: #b67676;
+}
+
+.motivation p {
+    color: black;
+}
+
 .skill {
     display: flex;
     justify-content: space-around;
