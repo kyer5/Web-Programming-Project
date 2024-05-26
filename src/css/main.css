@@ -134,6 +134,11 @@ h1 {
     box-sizing: border-box;
 }
 
+.player {
+    display: flex;
+    flex-direction: row;
+}
+
 .box1 {
     background-color: rgba(166, 150, 141, 0.1);
 }
@@ -143,7 +148,7 @@ h1 {
 }
 
 .box3 {
-    background-color: rgba(122, 198, 138, 0.1);
+    background-color: rgba(86, 138, 97, 0.1);
 }
 
 .project-content {
@@ -212,6 +217,22 @@ h1 {
     color: grey;
 }
 
+.social-issue {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    color: gray;
+    font-size: small;
+}
+
+.project-description-blue {
+    color: #3333d3;
+}
 /*footer*/
 
 .f-inner {
