@@ -43,7 +43,6 @@ ul {
 ul a {
     padding: 20px;
     text-decoration: none;
-    color: black;
 }
 
 li {
@@ -53,6 +52,8 @@ li {
 
 .entry-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -63,9 +64,9 @@ h1 {
     display: flex;
     margin-top: 10vw;
     justify-content: center;
-    padding-left: 19vw;
-    padding-right: 19vw;
-    height: 200vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    /*height: 200vw;*/
 }
 
 .one {
@@ -78,36 +79,34 @@ h1 {
     line-height: 1.5vw;
 }
 
-.motivation {
-    /*font-size: 1.2em;*/
+.sub-theme {
     color: #b67676;
-}
-
-.motivation p {
-    color: black;
 }
 
 .skill {
     display: flex;
     justify-content: space-around;
     margin-top: 4vw;
-    color: #b67676;
     text-align: center;
 }
 
 .experience {
     display: flex;
     flex-direction: column;
-    color: #b67676;
-    margin-top: 4vw;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .experience ul {
     display: flex;
     flex-direction: column;
-    color: black;
     font-size: 1.2em;
+}
+
+.history h3 {
+    display: flex;
+    justify-content: center;
 }
 
 .head {
@@ -122,6 +121,98 @@ h1 {
 .sidebar-1 li {
     line-height: 1.5vw;
 }
+
+.title {
+    text-align: center;
+}
+
+.box1, .box2, .box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: rgba(166, 150, 141, 0.1);
+}
+
+.box2 {
+    background-color: rgba(182, 118, 118, 0.1);
+}
+
+.box3 {
+    background-color: rgba(122, 198, 138, 0.1);
+}
+
+.project-content {
+    display: flex;
+}
+
+.project-image {
+    display: flex;
+    flex: 1;
+    margin: 1.5vw;
+    justify-content: center;
+}
+
+.project-description {
+    margin-right: 1.5vw;
+    justify-content: center;
+    flex: 1;
+}
+
+.btn {
+    display: flex;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: lightgray;
+}
+
+.btn:hover {
+    letter-spacing: 1px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.project-description-red {
+    color: red;
+}
+
+.project-description-skill-type {
+    display: flex;
+    flex-direction: row;
+
+    flex: 1;
+
+    padding: 10px 0;
+}
+
+.project-description-label {
+    width: 150px;
+    display: flex;
+}
+
+.project-description-value {
+    display: flex;
+    justify-content: center;
+}
+
+.period {
+    color: grey;
+}
+
+/*footer*/
 
 .f-inner {
     display: flex;
