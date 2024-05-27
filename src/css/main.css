@@ -63,10 +63,8 @@ h1 {
 .content-wrap {
     display: flex;
     margin-top: 10vw;
-    justify-content: center;
     padding-left: 15vw;
     padding-right: 15vw;
-    /*height: 200vw;*/
 }
 
 .one {
@@ -95,7 +93,6 @@ h1 {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
 }
 
 .experience ul {
@@ -106,7 +103,6 @@ h1 {
 
 .history h3 {
     display: flex;
-    justify-content: center;
 }
 
 .head {
@@ -129,7 +125,6 @@ h1 {
 .box1, .box2, .box3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border-radius: 30px;
     box-sizing: border-box;
 }
@@ -190,7 +185,7 @@ h1 {
     transform: scale(1.1);
 }
 
-.project-description-red {
+.text-color-red {
     color: red;
 }
 
@@ -230,9 +225,75 @@ figcaption {
     font-size: small;
 }
 
-.project-description-blue {
-    color: #3333d3;
+.social-issue-red {
+    color: crimson;
 }
+
+.text-color-blue {
+    color: #006dd7;
+}
+
+.interested-technology {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.feature-name {
+    font-size: 130%;
+}
+
+.feature-description {
+    display: flex;
+    align-items: center;
+}
+
+.spring-features {
+    display: flex;
+    flex-direction: column;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 2vw;
+    overflow: hidden;
+    width: 20%;
+}
+
+.mvcs {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.mvc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.mvc-description ul {
+    display: flex;
+    flex-direction: column;
+}
+
 /*footer*/
 
 .f-inner {
