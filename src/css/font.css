@@ -42,6 +42,10 @@ p {
     font-family: "LINESeedKR-Rg", Serif;
 }
 
+.feature-name {
+    font-family: "LINESeedKR-Bd", Serif;
+}
+
 @font-face {
     font-family: 'LINESeedKR-Th';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Th.woff2') format('woff2');
