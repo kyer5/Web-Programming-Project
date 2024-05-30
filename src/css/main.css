@@ -60,6 +60,10 @@ h1 {
     font-size: 2.2em;
 }
 
+h3 {
+    text-align: center;
+}
+
 .content-wrap {
     display: flex;
     margin-top: 10vw;
@@ -341,7 +345,70 @@ figcaption {
 .text-color-spring {
     color: #6DB33F;
 }
-/*footer*/
+
+.future-plan ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap-cont-period {
+    width: 6.1vw;
+}
+
+.wrap-item-tit {
+    width: 9vw;
+}
+
+.wrap-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.inner-cont {
+    margin-left: 100px;
+}
+
+.area-cont {
+    margin-left: 30px;
+}
+
+.on {
+    padding-bottom: 20px;
+}
+
+.on2 {
+    list-style-type: disc;
+}
+
+.on3 {
+    list-style-type: decimal;
+}
+
+strong {
+    font-size: x-large;
+}
+
+em {
+    font-style: normal;
+}
+
+.two {
+    padding-bottom: 120px;
+}
+
+.plan-ul {
+    padding-top: 50px;
+}
 
 .f-inner {
     display: flex;
