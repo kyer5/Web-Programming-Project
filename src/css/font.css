@@ -18,6 +18,10 @@ h3 {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
+h4 {
+    font-family: "LINESeedKR-Rg", Serif;
+}
+
 li {
     font-family: "LINESeedKR-Rg", Serif;
 }
@@ -51,6 +55,14 @@ p {
 }
 
 .feature-name {
+    font-family: "LINESeedKR-Bd", Serif;
+}
+
+strong {
+    font-family: "LINESeedKR-Bd", Serif;
+}
+
+em {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
