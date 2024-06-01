@@ -8,6 +8,7 @@ header {
     top: 0;
     left: 0;
     width: 62%;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +24,7 @@ header a {
     color: inherit;
 }
 
-.h-inner{
+.h-inner {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -145,9 +146,11 @@ h3 {
 
 .project-content {
     display: flex;
+    justify-content: space-around;
+    margin: 1vw;
 }
 
-.project-image {
+.project-image-inner {
     display: flex;
     flex: 1;
     margin: 1.5vw;
@@ -155,7 +158,6 @@ h3 {
 }
 
 .project-description {
-    margin-right: 1.5vw;
     justify-content: center;
     flex: 1;
 }
@@ -194,7 +196,7 @@ h3 {
 }
 
 .project-description-label {
-    width: 150px;
+    min-width: 150px;
     display: flex;
 }
 
@@ -413,13 +415,13 @@ em {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal h3 {
@@ -427,7 +429,7 @@ em {
     align-items: normal;
 }
 
-.modal ul{
+.modal ul {
     display: flex;
     flex-direction: column;
 }
@@ -478,12 +480,37 @@ form {
     flex-direction: column;
 }
 
-input {
-    font-family: "LINESeedKR-Rg", Serif;
+.project-image-slider {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 210px;
 }
 
-textarea {
-    font-family: "LINESeedKR-Rg", Serif;
+.project-image-slider-box{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.project-image-container-box{
+    width: 210px;
+}
+
+.project-image-container {
+    transition: transform 1s;
+    display: flex;
+}
+
+.project-image-inner {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider-btn {
+    display: flex;
+    justify-content: center;
 }
 
 .f-inner {
