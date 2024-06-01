@@ -66,6 +66,14 @@ em {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
+input {
+    font-family: "LINESeedKR-Rg", Serif;
+}
+
+textarea {
+    font-family: "LINESeedKR-Rg", Serif;
+}
+
 @font-face {
     font-family: 'LINESeedKR-Th';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Th.woff2') format('woff2');
