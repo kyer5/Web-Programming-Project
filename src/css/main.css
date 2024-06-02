@@ -51,6 +51,14 @@ li {
     display: list-item;
 }
 
+nav a {
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #b67676;
+}
+
 .entry-content {
     display: flex;
     justify-content: center;
@@ -237,13 +245,18 @@ figcaption {
     align-items: center;
 }
 
-.feature-name {
-    font-size: 130%;
-}
-
-.feature-description {
+.mvc-feature-name {
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-size: 130%;
+    height: 100px;
+}
+.mvc-feature-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
 }
 
 .spring-features {
@@ -251,13 +264,13 @@ figcaption {
     flex-direction: column;
 }
 
-.features {
+.feature-wrap {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.feature {
+.feature-card {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -265,9 +278,7 @@ figcaption {
     padding: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    transition: 0.5s;
     margin-top: 2vw;
-    overflow: hidden;
     width: 20%;
 }
 
@@ -286,6 +297,20 @@ figcaption {
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+}
+
+.mvc-name {
+    display: flex;
+    justify-content: center;
+    min-width: 120px;
+}
+
+.mvc-description {
+    margin-left: 10px;
+}
+
+.mvc-description li{
+    list-style-type: disc;
 }
 
 .mvc-description ul {
@@ -393,7 +418,7 @@ figcaption {
 }
 
 .on3 {
-    list-style-type: decimal;
+    list-style-type: disc;
 }
 
 strong {
@@ -405,7 +430,7 @@ em {
 }
 
 .two {
-    padding-bottom: 120px;
+    padding-bottom: 3px;
 }
 
 .plan-ul {
@@ -480,24 +505,40 @@ form {
     flex-direction: column;
 }
 
-.project-image-slider {
+.project-image-slider-goseumi {
     display: flex;
     flex-direction: column;
     overflow: hidden;
     width: 210px;
 }
 
-.project-image-slider-box{
+.project-image-slider-cookeryket {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 420px;
+}
+
+.project-image-slider-box {
     flex: 1;
     display: flex;
     justify-content: center;
 }
 
-.project-image-container-box{
+.project-image-container-box-goseumi {
     width: 210px;
 }
 
-.project-image-container {
+.project-image-container-box-cookeryket {
+    width: 420px;
+}
+
+.project-image-container-goseumi {
+    transition: transform 1s;
+    display: flex;
+}
+
+.project-image-container-cookeryket {
     transition: transform 1s;
     display: flex;
 }
@@ -511,6 +552,40 @@ form {
 .slider-btn {
     display: flex;
     justify-content: center;
+}
+
+.prev, .next {
+    background-color: transparent;
+    border: none;
+}
+
+.milestones {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.v-line {
+    border-left: medium solid #ececec;
+    height: 250px;
+}
+
+.two-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.plan-ul {
+    padding-bottom: 100px;
 }
 
 .f-inner {
