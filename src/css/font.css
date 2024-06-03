@@ -1,60 +1,40 @@
-header {
+body {
+    font-family: "LINESeedKR-Rg", Serif;
+}
+
+/*header*/
+header li {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
-nav ul {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-h1 {
+h1, h2, h3, h4 {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
-h2 {
+/*section*/
+/*masthead*/
+#mastHeadTitle {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
-h3 {
+/*experience*/
+.experience-title, .project-title {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
-h4 {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-li {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-bar {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-.motivation {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-.history {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-.title {
+.middle-size {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
-.period {
-    font-family: "LINESeedKR-Rg", Serif;
+.plan-period {
+    font-family: "LINESeedKR-Bd", Serif;
 }
 
-.project-description {
-    font-family: "LINESeedKR-Rg", Serif;
+.plan-title {
+    font-family: "LINESeedKR-Bd", Serif;
 }
 
-p {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-.feature-name {
+.spring-feature-name {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
@@ -66,12 +46,8 @@ em {
     font-family: "LINESeedKR-Bd", Serif;
 }
 
-input {
-    font-family: "LINESeedKR-Rg", Serif;
-}
-
-textarea {
-    font-family: "LINESeedKR-Rg", Serif;
+.mvc-name {
+    font-family: "LINESeedKR-Bd", Serif;
 }
 
 @font-face {
