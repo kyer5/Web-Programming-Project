@@ -62,15 +62,15 @@ header {
     top: 0;
     left: 0;
     width: 62%;
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
     padding-left: 19vw;
     padding-right: 19vw;
     background-color: #FBEDED;
-    opacity: 0.9;
     box-shadow: 0 2px 6px 0 hsla(0, 0%, 80.8%, .5);
+    opacity: 0.9;
 }
 
 #header-inner {
@@ -78,12 +78,7 @@ header {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-}
-
-audio {
-    margin-top: 5px;
-    width: 15vw;
-    height: 2vw;
+    margin-top: 30px;
 }
 
 header ul {
@@ -334,6 +329,13 @@ article {
     padding: 50px;
     border: 1px solid #888;
     width: 80%;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .close {
