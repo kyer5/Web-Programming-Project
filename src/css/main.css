@@ -250,6 +250,13 @@ article {
     width: 210px;
 }
 
+.project-image-slider-portfolio {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 480px;
+}
+
 .project-image-slider-cookeryket {
     display: flex;
     flex-direction: column;
@@ -267,11 +274,20 @@ article {
     width: 210px;
 }
 
+.project-image-container-box-portfolio {
+    width: 480px;
+}
+
 .project-image-container-box-cookeryket {
     width: 420px;
 }
 
 .project-image-container-goseumi {
+    transition: transform 1s;
+    display: flex;
+}
+
+.project-image-container-portfolio {
     transition: transform 1s;
     display: flex;
 }
@@ -394,6 +410,12 @@ form {
     align-items: center;
 }
 
+.tech-wrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
 .spring-feature-name {
     display: flex;
     align-items: center;
@@ -507,6 +529,10 @@ form {
     margin-right: 40px;
 }
 
+#plan-wrap {
+    margin-top: 60px;
+}
+
 .milestones {
     position: absolute;
     width: 12px;
@@ -568,7 +594,7 @@ form {
 }
 
 /*footer*/
-.footer-inner {
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
