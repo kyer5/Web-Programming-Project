@@ -41,133 +41,137 @@
             <em><span class="text-color-blue">자바 엔터프라이즈</span></em> 애플리케이션 개발에 사용되는 오픈소스 경량급 애플리케이션
             <em><span class="text-color-blue">프레임워크</span></em>입니다.</p>
           <p>Spring은 다양한 기능과 모듈을 제공하여 개발자가 더 쉽고 효율적으로 애플리케이션을 개발할 수 있도록 돕습니다.</p>
-          <div class="middle-size">주요 기능 및 특징</div>
-          <div class="spring-features">
-            <div class="feature-wrap">
-              <div class="feature-box">
-                <div class='spring-feature-name'>
-                  IoC
-                  <br>
-                  (Inversion of Control)
+          <div class="tech-wrap">
+            <div class="middle-size">주요 기능 및 특징</div>
+            <div class="spring-features">
+              <div class="feature-wrap">
+                <div class="feature-box">
+                  <div class='spring-feature-name'>
+                    IoC
+                    <br>
+                    (Inversion of Control)
+                  </div>
+                  <div class="spring-feature-description">
+                    "제어의 역전"이라는 뜻으로, 소프트웨어 컴포넌트 간의 의존성 관리를 개선하는 디자인 패턴
+                  </div>
                 </div>
-                <div class="spring-feature-description">
-                  "제어의 역전"이라는 뜻으로, 소프트웨어 컴포넌트 간의 의존성 관리를 개선하는 디자인 패턴
+                <div class="feature-box">
+                  <div class='spring-feature-name'>
+                    DI
+                    <br>
+                    (Dependency Injection)
+                  </div>
+                  <div class="spring-feature-description">
+                    의존성 객체를 개발자가 생성하지 않고 클래스를 Bean으로 등록해놓으면 Bean으로 등록된 객체를 프레임워크가 찾아서 알아서 주입해주는 기술이다.
+                    이를 통해 모듈간의 결합도를 낮출 수 있다.
+                  </div>
                 </div>
-              </div>
-              <div class="feature-box">
-                <div class='spring-feature-name'>
-                  DI
-                  <br>
-                  (Dependency Injection)
-                </div>
-                <div class="spring-feature-description">
-                  의존성 객체를 개발자가 생성하지 않고 클래스를 Bean으로 등록해놓으면 Bean으로 등록된 객체를 프레임워크가 찾아서 알아서 주입해주는 기술이다.
-                  이를 통해 모듈간의 결합도를 낮출 수 있다.
-                </div>
-              </div>
-              <div class="feature-box">
-                <div class='spring-feature-name'>
-                  AOP
-                  <br>
-                  (Aspect Oriented Programming)
-                </div>
-                <div class="spring-feature-description">
-                  "관점 지향 프로그래밍"이라는 뜻으로, 프로그램의 핵심 로직 외에 부가적인 횡단 관심사(Cross-cutting Concerns)를 모듈화하는 개념
-                </div>
-              </div>
-            </div>
-            <div class="feature-wrap">
-              <div class="feature-box">
-                <div class='spring-feature-name'>
-                  PSA
-                  <br>
-                  (Portable Service Abstraction)
-                </div>
-                <div class="spring-feature-description">
-                  "이식 가능한 서비스 추상화"라는 뜻으로, 서로 다른 기술 스택을 사용하는 여러 환경에서 공통된 API를 사용하여 개발을 간소화하는 개념
+                <div class="feature-box">
+                  <div class='spring-feature-name'>
+                    AOP
+                    <br>
+                    (Aspect Oriented Programming)
+                  </div>
+                  <div class="spring-feature-description">
+                    "관점 지향 프로그래밍"이라는 뜻으로, 프로그램의 핵심 로직 외에 부가적인 횡단 관심사(Cross-cutting Concerns)를 모듈화하는 개념
+                  </div>
                 </div>
               </div>
-              <div class="feature-box">
-                <div class='spring-feature-name'>
-                  POJO
-                  <br>
-                  (Plan Old Java Object)
+              <div class="feature-wrap">
+                <div class="feature-box">
+                  <div class='spring-feature-name'>
+                    PSA
+                    <br>
+                    (Portable Service Abstraction)
+                  </div>
+                  <div class="spring-feature-description">
+                    "이식 가능한 서비스 추상화"라는 뜻으로, 서로 다른 기술 스택을 사용하는 여러 환경에서 공통된 API를 사용하여 개발을 간소화하는 개념
+                  </div>
                 </div>
-                <div class="spring-feature-description">
-                  "평범한 옛날 자바 객체"라는 뜻으로, 간단하고 가벼운 자바 객체를 말한다. POJO는 특정한 인터페이스나 프레임워크에 종속되지 않고,
-                  자바의 기본적인 객체 지향 프로그래밍 원칙을 따르는 객체를 의미한다.
+                <div class="feature-box">
+                  <div class='spring-feature-name'>
+                    POJO
+                    <br>
+                    (Plan Old Java Object)
+                  </div>
+                  <div class="spring-feature-description">
+                    "평범한 옛날 자바 객체"라는 뜻으로, 간단하고 가벼운 자바 객체를 말한다. POJO는 특정한 인터페이스나 프레임워크에 종속되지 않고,
+                    자바의 기본적인 객체 지향 프로그래밍 원칙을 따르는 객체를 의미한다.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="middle-size">MVC 디자인 패턴</div>
-          <div class="spring-mvc">
-            <p>MVC는 Model, View, Controller의 약자로,
-              <br>
-              클라이언트와 상호작용하는 소프트웨어를 설계함에 있어 세가지 요소로 나누어 설계하는 것을 말합니다.</p>
-            <canvas id="mvcCanvas" width="600" height="276.75"></canvas>
-            <script src="../js/draw_mvc.js"></script>
-            <div class="mvc-wrap">
-              <div class="mvc-box">
-                <div class="mvc-name">
-                  Model
+          <div class="tech-wrap">
+            <div class="middle-size">MVC 디자인 패턴</div>
+            <div class="spring-mvc">
+              <p>MVC는 Model, View, Controller의 약자로,
+                <br>
+                클라이언트와 상호작용하는 소프트웨어를 설계함에 있어 세가지 요소로 나누어 설계하는 것을 말합니다.</p>
+              <canvas id="mvcCanvas" width="600" height="276.75"></canvas>
+              <script src="../js/draw_mvc.js"></script>
+              <div class="mvc-wrap">
+                <div class="mvc-box">
+                  <div class="mvc-name">
+                    Model
+                  </div>
+                  <div class="mvc-description">
+                    <p>Model은 애플리케이션의 정보, 데이터의 가공을 책임지며 데이터베이스와 상호작용하여 비즈니스 로직을 처리하는 모듈. 즉, 컴포넌트를 말한다.
+                      <br>
+                      Model은 아래와 같은 규칙을 가지고 있다.</p>
+                    <li>
+                      사용자가 이용하려는 모든 데이터를 가지고 있어야 한다.
+                    </li>
+                    <li>
+                      View 또는 Controller에 대해 어떤 정보도 알 수 없어야 한다.
+                    </li>
+                    <li>
+                      변경이 일어났을 때 처리 방법을 구현해야 한다.
+                    </li>
+                    <li>
+                      모델은 재사용이 가능해야 하며 다른 인터페이스에서도 변하지 않아야 한다.
+                    </li>
+                  </div>
                 </div>
-                <div class="mvc-description">
-                  <p>Model은 애플리케이션의 정보, 데이터의 가공을 책임지며 데이터베이스와 상호작용하여 비즈니스 로직을 처리하는 모듈. 즉, 컴포넌트를 말한다.
-                    <br>
-                    Model은 아래와 같은 규칙을 가지고 있다.</p>
-                  <li>
-                    사용자가 이용하려는 모든 데이터를 가지고 있어야 한다.
-                  </li>
-                  <li>
-                    View 또는 Controller에 대해 어떤 정보도 알 수 없어야 한다.
-                  </li>
-                  <li>
-                    변경이 일어났을 때 처리 방법을 구현해야 한다.
-                  </li>
-                  <li>
-                    모델은 재사용이 가능해야 하며 다른 인터페이스에서도 변하지 않아야 한다.
-                  </li>
+                <div class="mvc-box">
+                  <div class="mvc-name">
+                    View
+                  </div>
+                  <div class="mvc-description">
+                    <p>View는 클라이언트 단에서 보여지는 결과화면을 반환하는 모듈. 즉, 사용자 인터페이스 요소를 말하며 아래와 같은 규칙들을 가지고 있다.</p>
+                    <li>
+                      Model이 가지고 있는 데이터를 저장하면 안된다.<br>
+                      &nbsp;→ Model이나 Controller에 대한 정보를 알면 안된다.
+                    </li>
+                    <li>
+                      데이터를 받아 단순히 화면에 표시해주는 역할만 가진다.
+                    </li>
+                    <li>
+                      재사용이 가능하게끔 설계를 해야 하며 다른 정보들을 표현할 때 쉽게 설계해야 한다.
+                    </li>
+                  </div>
                 </div>
-              </div>
-              <div class="mvc-box">
-                <div class="mvc-name">
-                  View
-                </div>
-                <div class="mvc-description">
-                  <p>View는 클라이언트 단에서 보여지는 결과화면을 반환하는 모듈. 즉, 사용자 인터페이스 요소를 말하며 아래와 같은 규칙들을 가지고 있다.</p>
-                  <li>
-                    Model이 가지고 있는 데이터를 저장하면 안된다.<br>
-                    &nbsp;→ Model이나 Controller에 대한 정보를 알면 안된다.
-                  </li>
-                  <li>
-                    데이터를 받아 단순히 화면에 표시해주는 역할만 가진다.
-                  </li>
-                  <li>
-                    재사용이 가능하게끔 설계를 해야 하며 다른 정보들을 표현할 때 쉽게 설계해야 한다.
-                  </li>
-                </div>
-              </div>
-              <div class="mvc-box">
-                <div class="mvc-name">
-                  Controller
-                </div>
-                <div class="mvc-description">
-                  <p>Controller는 client로부터 request가 들어왔을 때 그 입력을 처리하고 어떤 로직을 실행시킬 것인지 Model과 View를 연결해주며 제어하는 모듈을 말한다.
-                    <br>
-                    Controller는 아래와 같은 규칙들을 가지고 있다.</p>
-                  <li>
-                    Model 또는 View에 대한 정보를 알아야 한다.
-                  </li>
-                  <li>
-                    Model 또는 View의 변경을 인지하여 대처를 해야한다.
-                  </li>
-                  <li>
-                    모델이나 뷰의 변경 통지를 받으면 이를 해석해서 각각의 구성 요소에게 통지를 해야 한다.
-                  </li>
-                  <li>
-                    애플리케이션의 메인 로직을 담당한다.
-                  </li>
+                <div class="mvc-box">
+                  <div class="mvc-name">
+                    Controller
+                  </div>
+                  <div class="mvc-description">
+                    <p>Controller는 client로부터 request가 들어왔을 때 그 입력을 처리하고 어떤 로직을 실행시킬 것인지 Model과 View를 연결해주며 제어하는 모듈을 말한다.
+                      <br>
+                      Controller는 아래와 같은 규칙들을 가지고 있다.</p>
+                    <li>
+                      Model 또는 View에 대한 정보를 알아야 한다.
+                    </li>
+                    <li>
+                      Model 또는 View의 변경을 인지하여 대처를 해야한다.
+                    </li>
+                    <li>
+                      모델이나 뷰의 변경 통지를 받으면 이를 해석해서 각각의 구성 요소에게 통지를 해야 한다.
+                    </li>
+                    <li>
+                      애플리케이션의 메인 로직을 담당한다.
+                    </li>
+                  </div>
                 </div>
               </div>
             </div>
@@ -268,19 +272,27 @@
           </div>
           <p>카카오는 언제 어디서나 우리 일상 속에서 편리함을 책임집니다.<br>
             카카오는 더 나은 세상을 만들기 위해 꾸준히 노력합니다.</p>
-          <div class="middle-size"># 전 세계 사용성 1위, JAVA</div>
-          <p>세계적인 대부분의 IT 기업들은 JAVA를 개발 공식언어로 사용하고 있습니다.<br>
-            포춘 500대 기업 중 90%는 백엔드 개발 언어로 자바를 채택할 정도! <br>
-            한국에서도 <b><span class="text-color-naver">네이버</span></b>, <b><span class="text-color-kakao">카카오</span></b>,
-            <b><span class="text-color-baemin">배달의민족</span></b> 등 수많은 IT 기업에서 JAVA 개발자를 필요로 하고 있답니다.</p>
-          <p>카카오 역시 Java 백엔드의 핵심 기술, <span class="text-color-spring"><b>Spring</b></span>을 사용하고 있습니다.</p>
-          <figure>
-            <img src="../image/technology_company/company/kakao_spring_01.png" height="160" width="684"/>
-            <img src="../image/technology_company/company/kakao_spring_02.png" height="175" width="684"/>
-            <figcaption>참고. 카카오 인프라 서비스 플랫폼 Backend 개발자 모집 공고</figcaption>
-          </figure>
-          <p>카카오는 다양한 서비스를 통해 사용자들의 생활을 편리하게 만들어주는 동시에 디지털 산업에 혁신을 주도하고 있습니다.<br>
-            최근에는 인공지능, 자율주행, 블록체인 등의 신기술에도 주목하고 있어, 미래에 더욱 다양하고 혁신적인 서비스가 기대되는 기업입니다.</p>
+          <div class="tech-wrap">
+            <div class="middle-size"># 전 세계 사용성 1위, JAVA</div>
+            <p>세계적인 대부분의 IT 기업들은 JAVA를 개발 공식언어로 사용하고 있습니다.<br>
+              포춘 500대 기업 중 90%는 백엔드 개발 언어로 자바를 채택할 정도! <br>
+              한국에서도 <b><span class="text-color-naver">네이버</span></b>, <b><span class="text-color-kakao">카카오</span></b>,
+              <b><span class="text-color-baemin">배달의민족</span></b> 등 수많은 IT 기업에서 JAVA 개발자를 필요로 하고 있습니다.</p>
+            <p><b><span class="text-color-kakao">카카오</span></b> 역시 Java 백엔드의 핵심 기술, <span class="text-color-spring"><b>Spring</b></span>을 사용하고 있습니다.</p>
+            <figure>
+              <img src="../image/technology_company/company/kakao_spring.png" height="451" width="810"/>
+              <figcaption>
+                kakao pay 기술 블로그
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="../image/technology_company/company/kakao_spring_01.png" height="160" width="684"/>
+              <img src="../image/technology_company/company/kakao_spring_02.png" height="175" width="684"/>
+              <figcaption>참고. 카카오 인프라 서비스 플랫폼 Backend 개발자 모집 공고</figcaption>
+            </figure>
+            <p>카카오는 다양한 서비스를 통해 사용자들의 생활을 편리하게 만들어주는 동시에 디지털 산업에 혁신을 주도하고 있습니다.<br>
+              최근에는 인공지능, 자율주행, 블록체인 등의 신기술에도 주목하고 있어, 미래에 더욱 다양하고 혁신적인 서비스가 기대되는 기업입니다.</p>
+          </div>
         </article>
       </div>
     </div>
