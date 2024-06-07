@@ -33,7 +33,7 @@
         <article id="interested-technology">
           <h2 class="sub-theme">Interested Technology</h2>
           <figure>
-            <img src="../image/technology_company/technology/spring.png" height="279" width="400"/>
+            <img src="../image/technology_company/technology/spring.png" id="spring-img"/>
           </figure>
           <div class="middle-size">Java 기반의 애플리케이션 프레임워크</div>
           <p>스프링은 Java 백엔드의 핵심 기술로서,
@@ -108,7 +108,7 @@
               <p>MVC는 Model, View, Controller의 약자로,
                 <br>
                 클라이언트와 상호작용하는 소프트웨어를 설계함에 있어 세가지 요소로 나누어 설계하는 것을 말합니다.</p>
-              <canvas id="mvcCanvas" width="600" height="276.75"></canvas>
+              <canvas id="mvcCanvas"></canvas>
               <script src="../js/draw_mvc.js"></script>
               <div class="mvc-wrap">
                 <div class="mvc-box">
@@ -178,18 +178,18 @@
           </div>
           <p>스프링은 기존 기술의 복잡성을 크게 줄인 프레임워크이지만,<br>그럼에도 불구하고 스프링을 사용하기 위해서는 여러 가지의 사항들을 설정해주어야 합니다.</p>
           <figure id="spring-boot-logo">
-            <img src="../image/technology_company/technology/spring_boot.png" height="210" width="400"/>
+            <img src="../image/technology_company/technology/spring_boot.png" id="spring-boot-img"/>
             <figcaption>spring boot의 등장</figcaption>
           </figure>
           <figure id="spring-code">
-            <img src="../image/technology_company/technology/spring_code.png" height="700" width="553"/>
+            <img src="../image/technology_company/technology/spring_code.png" id="spring-code-img"/>
             <figcaption>스프링으로 개발을 할 때에 설정해주어야 하는 설정 정보<br>→ 한 눈에 보기 어렵고 매우 복잡함</figcaption>
           </figure>
           <figure>
-            <img src="../image/technology_company/technology/right_arrow.png" height="100" width="100"/>
+            <img src="../image/technology_company/technology/right_arrow.png" id="allow"/>
           </figure>
           <figure id="spring-boot-code">
-            <img src="../image/technology_company/technology/spring_boot_code.png" height="125" width="553"/>
+            <img src="../image/technology_company/technology/spring_boot_code.png" id="spring-boot-code-img"/>
             <figcaption>스프링 부트를 사용하여 위의 복잡한 설정 정보를 간략하게 줄일 수 있음</figcaption>
           </figure>
           <p><strong>스프링 부트는 스프링으로 애플리케이션을 만들 때에 필요한 설정을 간편하게 처리해주는 별도의 프레임워크입니다.</strong></p>
@@ -206,7 +206,7 @@
           <h2 class="sub-theme">Company</h2>
           <p>저의 꿈의 직장, <b><span class="text-color-kakao">카카오</span></b>에 대해 소개하려고 합니다.</p>
           <figure id="kakao">
-            <img src="../image/technology_company/company/kakao_logo.png" height="126.42" width="400"/>
+            <img src="../image/technology_company/company/kakao_logo.png" id="kakao-logo"/>
           </figure>
           <div class="middle-size">기술과 사람으로 더 나은 세상을 만듭니다.</div>
           <p>대한민국의 종합 IT 기업.
@@ -220,17 +220,17 @@
                 디지털 기술의 혜택을 누릴 수 있도록 디지털 전환을 돕습니다.</p>
               <div class="service-logo">
                 <a href="https://careers.kakao.com/index"><img src="../image/technology_company/company/kakao.png"
-                                                               width="93.75" height="45"/></a>
+                                                               id="kakao-careers"/></a>
                 <a href="https://www.kakaopay.com/"><img src="../image/technology_company/company/kakao_pay.png"
-                                                         width="126.75" height="45"/></a>
+                                                         id="kakao-pay"/></a>
                 <a href="https://www.kakaobank.com/"><img src="../image/technology_company/company/kakao_bank.png"
-                                                          width="141" height="45"/></a>
+                                                          id="kakao-bank"/></a>
               </div>
               <div class="service-logo">
                 <a href="https://www.kakaomobility.com/"><img
-                    src="../image/technology_company/company/kakao_mobility.png" width="187.5" height="45"/></a>
+                    src="../image/technology_company/company/kakao_mobility.png" id="kakao-mobility"/></a>
                 <a href="https://kakaostyle.com/"><img src="../image/technology_company/company/kakao_style.png"
-                                                       width="141.75" height="45"/></a>
+                                                       id="kakao-style"/></a>
               </div>
             </div>
             <div class="service">
@@ -239,13 +239,13 @@
                 글로벌 시장 진출과 경쟁력 강화를 추구합니다.</p>
               <div class="service-logo">
                 <a href="https://kakaoent.com/"><img src="../image/technology_company/company/kakao_entertainment.png"
-                                                     width="117" height="45"/></a>
+                                                     id="kakao-ent"/></a>
                 <a href="https://www.kakaogamescorp.com/"><img src="../image/technology_company/company/kakao_games.png"
-                                                               width="165" height="45"/></a>
+                                                               id="kakao-gamescorp"/></a>
               </div>
               <div class="service-logo">
                 <a href="https://www.kakaopiccoma.com/"><img src="../image/technology_company/company/kakao_piccoma.png"
-                                                             width="192.75" height="45"/></a>
+                                                             id="kakao-piccoma"/></a>
               </div>
             </div>
           </div>
@@ -256,17 +256,17 @@
                 미래 비즈니스 파트너 발굴과 스타트업 생태계 기여를 위한 투자도 함께합니다.</p>
               <div class="service-logo">
                 <a href="https://www.kakaobrain.com/"><img src="../image/technology_company/company/kakao_brain.png"
-                                                           width="141" height="45"/></a>
+                                                           id="kakao-brain"/></a>
                 <a href="https://kakaoenterprise.com/"><img
-                    src="../image/technology_company/company/kakao_enterprise.png" width="213.75" height="45"/></a>
+                    src="../image/technology_company/company/kakao_enterprise.png" id="kakao-enterprise"/></a>
                 <a href="https://www.kakao.vc/"><img src="../image/technology_company/company/kakao_ventures.png"
-                                                     width="200.25" height="45"/></a>
+                                                     id="kakao-vc"/></a>
               </div>
               <div class="service-logo">
                 <a href="https://kakaohealthcare.com/"><img
-                    src="../image/technology_company/company/kakao_healthcare.png" width="216.75" height="45"/></a>
+                    src="../image/technology_company/company/kakao_healthcare.png" id="kakao-healthcare"/></a>
                 <a href="https://kakaoinvestment.com/"><img
-                    src="../image/technology_company/company/kakao_inverstment.png" width="236.25" height="45"/></a>
+                    src="../image/technology_company/company/kakao_inverstment.png" id="kakao-inverstment"/></a>
               </div>
             </div>
           </div>
@@ -278,16 +278,17 @@
               포춘 500대 기업 중 90%는 백엔드 개발 언어로 자바를 채택할 정도! <br>
               한국에서도 <b><span class="text-color-naver">네이버</span></b>, <b><span class="text-color-kakao">카카오</span></b>,
               <b><span class="text-color-baemin">배달의민족</span></b> 등 수많은 IT 기업에서 JAVA 개발자를 필요로 하고 있습니다.</p>
-            <p><b><span class="text-color-kakao">카카오</span></b> 역시 Java 백엔드의 핵심 기술, <span class="text-color-spring"><b>Spring</b></span>을 사용하고 있습니다.</p>
+            <p><b><span class="text-color-kakao">카카오</span></b> 역시 Java 백엔드의 핵심 기술, <span class="text-color-spring"><b>Spring</b></span>을
+              사용하고 있습니다.</p>
             <figure>
-              <img src="../image/technology_company/company/kakao_spring.png" height="451" width="810"/>
+              <img src="../image/technology_company/company/kakao_spring.png" id="kakao-tech-blog"/>
               <figcaption>
                 kakao pay 기술 블로그
               </figcaption>
             </figure>
             <figure>
-              <img src="../image/technology_company/company/kakao_spring_01.png" height="160" width="684"/>
-              <img src="../image/technology_company/company/kakao_spring_02.png" height="175" width="684"/>
+              <img src="../image/technology_company/company/kakao_spring_01.png" id="kakao-backend-01"/>
+              <img src="../image/technology_company/company/kakao_spring_02.png" id="kakao-backend-02"/>
               <figcaption>참고. 카카오 인프라 서비스 플랫폼 Backend 개발자 모집 공고</figcaption>
             </figure>
             <p>카카오는 다양한 서비스를 통해 사용자들의 생활을 편리하게 만들어주는 동시에 디지털 산업에 혁신을 주도하고 있습니다.<br>

@@ -114,6 +114,10 @@ article {
 }
 
 /*masthead*/
+#profile {
+    height: 300px;
+    width: 290px;
+}
 #masthead {
     display: flex;
     justify-content: center;
@@ -149,10 +153,15 @@ article {
 }
 
 /*personal history*/
-#youtube-player {
+#youtube {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.youtube-player {
+    width: 515px;
+    height: 290px;
 }
 
 /*project*/
@@ -197,6 +206,36 @@ article {
     flex: 1;
     margin: 1.5vw;
     justify-content: center;
+}
+
+.goseumi-img {
+    width: 210px;
+    height: 420px;
+}
+
+.portfolio-img {
+    height: 218px;
+    width: 480px;
+}
+
+#portfolio-result-img-01 {
+    height: 200px;
+    width: 233px;
+}
+
+#portfolio-result-img-02 {
+    height: 287px;
+    width: 600px;
+}
+
+.cookeryket-img {
+    height: 278.46px;
+    width: 420px;
+}
+
+#cookeryket-result-img {
+    height: 447px;
+    width: 605px;
 }
 
 .project-description {
@@ -303,9 +342,14 @@ article {
     margin-right: 0;
 }
 
-.slider-btn {
+.slider-page {
     display: flex;
     justify-content: center;
+}
+
+.slider-btn {
+    height: 20px;
+    width: 20px;
 }
 
 .prev, .next {
@@ -377,6 +421,16 @@ article {
     align-items: center;
 }
 
+#social-issue-img-01 {
+    height: 421px;
+    width: 700px;
+}
+
+#social-issue-img-02 {
+    height: 426px;
+    width: 700px;
+}
+
 .social-issue-red {
     color: crimson;
 }
@@ -397,6 +451,11 @@ article {
     margin-left: 30px;
 }
 
+#github-logo-img {
+    height: 15px;
+    width: 15px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -408,6 +467,11 @@ form {
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+
+#spring-img {
+    height: 279px;
+    width: 400px;
 }
 
 .tech-wrap {
@@ -454,6 +518,11 @@ form {
     width: 20%;
 }
 
+#mvcCanvas {
+    width: 600px;
+    height: 276.75px;
+}
+
 .mvc-wrap {
     display: flex;
     flex-direction: column;
@@ -491,12 +560,37 @@ form {
     list-style-type: disc;
 }
 
+#spring-boot-img {
+    height: 210px;
+    width: 400px;
+}
+
+#spring-code-img {
+    height: 700px;
+    width: 553px;
+}
+
+#allow {
+    height: 100px;
+    width: 100px;
+}
+
+#spring-boot-code-img {
+    height: 125px;
+    width: 553px;
+}
+
 /*company*/
 #company {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+#kakao-logo {
+    height: 126.42px;
+    width: 400px;
 }
 
 .kakao-service {
@@ -521,6 +615,85 @@ form {
     justify-content: space-around;
 }
 
+#kakao-careers {
+    width: 93.75px;
+    height: 45px;
+}
+
+#kakao-pay {
+    width: 126.75px;
+    height: 45px;
+}
+
+#kakao-bank {
+    width: 141px;
+    height: 45px;
+}
+
+#kakao-mobility {
+    width: 187.5px;
+    height: 45px;
+}
+
+#kakao-style {
+    width: 141.75px;
+    height: 45px;
+}
+
+#kakao-ent {
+    width: 117px;
+    height: 45px;
+}
+
+#kakao-gamescorp {
+    width: 165px;
+    height: 45px;
+}
+
+#kakao-piccoma {
+    width: 192.75px;
+    height: 45px;
+}
+
+#kakao-brain {
+    width: 141px;
+    height: 45px;
+}
+
+#kakao-enterprise {
+    width: 213.75px;
+    height: 45px
+}
+
+#kakao-vc {
+    width: 200.25px;
+    height: 45px;
+}
+
+#kakao-healthcare {
+    width: 216.75px;
+    height: 45px;
+}
+
+#kakao-inverstment {
+    width: 236.25px;
+    height: 45px;
+}
+
+#kakao-tech-blog {
+    height: 451px;
+    width: 810px;
+}
+
+#kakao-backend-01 {
+    height: 160px;
+    width: 684px;
+}
+
+#kakao-backend-02 {
+    height: 175px;
+    width: 684px;
+}
 /*future plan*/
 .future-plan-list-design {
     display: flex;
