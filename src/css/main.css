@@ -689,6 +689,13 @@ form {
     height: 175px;
     width: 684px;
 }
+
+.tech-wrap figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*future plan*/
 .future-plan-list-design {
     display: flex;
