@@ -518,11 +518,6 @@ form {
     width: 20%;
 }
 
-#mvcCanvas {
-    width: 600px;
-    height: 276.75px;
-}
-
 .mvc-wrap {
     display: flex;
     flex-direction: column;
