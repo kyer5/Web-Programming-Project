@@ -456,6 +456,11 @@ article {
     width: 15px;
 }
 
+#tistory-logo-img {
+    height: 15px;
+    width: 15px;
+}
+
 form {
     display: flex;
     flex-direction: column;
